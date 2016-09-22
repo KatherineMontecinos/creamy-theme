@@ -1,0 +1,55 @@
+/* CSS DE LOS TEXTOS */
+a, h1, h2, h3 {
+	font-family: 'Merriweather';
+}
+
+p {
+	font-family: 'Open Sans';
+}
+
+/* MENU  */
+.navbar-default {
+  background-color: #DA2C38;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a  {
+  color: #fff;
+}
+
+/* IMAGEN PRINCIPAL - BANNER  */
+.imgfondo {
+	background-image: url('../img/creamy.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 400px;
+}
+
+.fondonegro {
+	background-color: rgba(0,0,0,0.7);
+	height: 400px;
+}
+
+.texto1 {
+	color: #fff;
+	padding-top: 10%;
+}
+
+/* SECCIONES SIGUIENTES*/
+
+section {
+	padding: 3% 0;
+	background-color: #F4F0BB;
+	color: #DA2C38;
+}
+
+.fondo1, footer {
+	padding: 3% 0;
+	background-color: #DA2C38;
+	color: #fff;
+}
+
+/* ICONOS */
+span {
+	font-size: 70px;
+	margin: 5% 0;
+}
